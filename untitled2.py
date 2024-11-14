@@ -8,10 +8,10 @@ Original file is located at
 """
 
 import pandas as pd
-df=pd.DataFrame ( { 'Ism': [ 'Hurixon','Moxichehra','Mushtariybonu','Madina','Bibifotima','Shuhratjon','Oybek','Nurmuhammad','Muhammadaziz','Humoyunmirzo'],
-   'Familiya':['Joraboyeva', 'Yusupaliyeva','Qadamova','Amakihonova','Joraboyeva','Shamshiddinov','Akramov','Jumanazorov','Rozaliyev','Dehqonov'],
-    'Yoshi':['19','20','21','19','19','19','19','19','19','19'],
-    'Kursi':['2','2','2','2','2','2','2','2','2','2']})
+df=pd.DataFrame ( { 'Ism': [ 'Hurixon','Moxichehra','Mushtariybonu','Madina','Bibifotima','Oybek','Nurmuhammad','Muhammadaziz','Humoyunmirzo'],
+   'Familiya':['Joraboyeva', 'Yusupaliyeva','Qadamova','Amakihonova','Joraboyeva','Akramov','Jumanazorov','Rozaliyev','Dehqonov'],
+    'Yoshi':['19','20','21','19','19','19','19','19','19'],
+    'Kursi':['2','2','2','2','2','2','2','2','2']})
 print(df)
 
 df.to_excel('hurixon.xlsx', index=False, sheet_name='Sheet1')
